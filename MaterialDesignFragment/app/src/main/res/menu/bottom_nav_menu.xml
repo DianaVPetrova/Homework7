@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item_feed"
+        android:icon="@drawable/feeds"
+        android:title="@string/feed"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item_scanner"
+        android:icon="@drawable/scanner"
+        android:title="@string/scanner"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item_gifts"
+        android:icon="@drawable/gifts"
+        android:title="@string/gifts"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile"
+        app:showAsAction="ifRoom"/>
+
+</menu>
